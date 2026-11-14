@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Polat Yerdaulet’s portfolio brings together his Information Systems studies, independent projects, and an imagined technology career at age 60.">
+  <meta name="theme-color" content="#0b0d16">
+  <title>Future Me at 60 | Polat Yerdaulet</title>
+  <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Space+Mono:wght@400;700&amp;display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <!-- The progress element reports the portion of the page already scrolled. -->
+  <progress id="scroll-progress" class="scroll-progress" value="0" max="100" aria-label="Page scroll progress"></progress>
+  <header class="site-header" id="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="Future Me at 60, home">
+        <span class="brand-mark" aria-hidden="true">PE</span>
+        <span>Future Me <span class="brand-accent">at 60</span></span>
+      </a>
+      <nav class="main-navigation" id="main-navigation" aria-label="Main navigation">
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#timeline">Timeline</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button type="button" class="icon-button" id="theme-toggle" aria-label="Switch to light theme">
+          <svg class="theme-icon-sun" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="theme-icon-moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M20.9 13.3A9 9 0 0 1 10.7 3.1 9 9 0 1 0 20.9 13.3Z"/></svg>
+        </button>
+        <button type="button" class="icon-button menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="main-navigation">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-main">
+        <div class="hero-copy">
+          <p class="eyebrow hero-kicker"><span class="signal-dot" aria-hidden="true"></span> Polat Yerdaulet <span class="kicker-divider" aria-hidden="true">/</span> Portfolio</p>
+          <h1 id="hero-title">My future<br><em>digital legacy.</em></h1>
+          <p class="hero-intro">I study Information Systems at IITU in Kazakhstan. My next goal is to work in the IT department at JUZ40 Edu and help build tools for students and educators.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my projects <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+            <a class="button button-outline" href="#about">About me</a>
+          </div>
+        </div>
+        <!-- Picture switches to the smaller local placeholder on narrow screens. -->
+        <figure class="hero-figure">
+          <div class="portrait">
+            <picture>
+              <source media="(max-width: 680px)" srcset="images/profile-small.jpg">
+              <img src="images/profile.jpg" width="960" height="960" alt="Illustrated silhouette used as Polat Yerdaulet’s profile photo placeholder" fetchpriority="high">
+            </picture>
+            <span class="portrait-corner corner-top" aria-hidden="true"></span>
+            <span class="portrait-corner corner-bottom" aria-hidden="true"></span>
+            <span class="portrait-label"><span class="signal-dot" aria-hidden="true"></span> PROFILE IMAGE PLACEHOLDER</span>
+          </div>
+          <figcaption><span>Polat Yerdaulet</span><span>Information Systems · IITU</span></figcaption>
+        </figure>
+      </div>
+      <div class="hero-rail">
+        <a class="scroll-link" href="#about"><span class="down-icon" aria-hidden="true">↓</span> Scroll to explore</a>
+        <p>Today’s ideas become tomorrow’s achievements.</p>
+        <a class="hero-contact" href="#contact">Contact &nearr;</a>
+      </div>
+    </section>
+
+    <section class="section shell" id="about" aria-labelledby="about-title">
+      <div class="section-head" data-reveal>
+        <h2 id="about-title">About me.</h2>
+        <p class="section-intro">I’m interested in software development, product design, and the work of turning a useful idea into a product people can rely on.</p>
+      </div>
+      <div class="two-up">
+        <article class="panel journey-panel" data-reveal>
+          <span class="tag tag-current"><span class="status-dot"></span> Real journey</span>
+          <h3>Today</h3>
+          <p>I’m Polat Yerdaulet, an Information Systems student at <abbr title="International Information Technology University">IITU</abbr> in Kazakhstan. My independent projects give me practice building for the web. I’d like to bring that experience to the IT department at JUZ40 Edu and keep learning how technology can support education.</p>
+        </article>
+        <article class="panel journey-panel future-panel" data-reveal>
+          <span class="tag tag-future"><span class="status-dot"></span> Imagined future</span>
+          <h3>At 60</h3>
+          <p>I imagine retiring after a career in technology entrepreneurship. I would like to look back on useful products, teams that grew with me, and a generation of developers I helped get started.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" id="projects" aria-labelledby="projects-title">
+      <div class="section-head section-head-wide" data-reveal>
+        <div>
+          <p class="eyebrow">My projects</p>
+          <h2 id="projects-title">Selected work.</h2>
+        </div>
+        <p class="section-intro">Six independent projects and ideas, from academic planning tools to experiments in digital signage and web design.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card" data-reveal>
+          <img class="project-art" src="images/project-1.jpg" alt="Illustration of an academic calendar and a syllabus document" width="800" height="450" loading="lazy">
+          <div class="project-body">
+            <div class="project-meta"><p>EdTech / AI</p><span class="tag tag-current">In development</span></div>
+            <h3>SyllabusAI</h3>
+            <p>A platform designed to turn university syllabuses into schedules, academic deadlines, and a student planning workflow.</p>
+            <ul class="pill-list" aria-label="SyllabusAI technologies"><li>Next.js</li><li>React</li><li>PostgreSQL</li></ul>
+            <!-- Details lets visitors explore project scope without needing an external project link. -->
+            <details class="project-details" data-project-details>
+              <summary>Project details</summary>
+              <p>The planned scope covers syllabus processing, calendar generation, deadline organization, admin and moderator roles, and web and mobile development.</p>
+            </details>
+          </div>
+        </article>
+        <article class="project-card" data-reveal>
+          <img class="project-art" src="images/project-2.jpg" alt="Illustration of a signage dashboard connected to multiple displays" width="800" height="450" loading="lazy">
+          <div class="project-body">
+            <div class="project-meta"><p>Digital signage / SaaS</p><span class="tag tag-future">Concept</span></div>
+            <h3>ScreenFlow</h3>
+            <p>A planned system for managing digital screens remotely and publishing content to Android TV and browser-based players.</p>
+            <ul class="pill-list" aria-label="ScreenFlow technology concepts"><li>Android TV</li><li>Web player</li><li>Dashboard</li></ul>
+            <details class="project-details" data-project-details>
+              <summary>Project details</summary>
+              <p>The concept includes remote display controls, screen grouping, a business dashboard, content scheduling, and two player types.</p>
+            </details>
+          </div>
+        </article>
+        <article class="project-card" data-reveal>
+          <img class="project-art" src="images/project-3.jpg" alt="Illustration of a pink JUZ40 community meetup invitation" width="800" height="450" loading="lazy">
+          <div class="project-body">
+            <div class="project-meta"><p>Creative web development</p><span class="tag">Created</span></div>
+            <h3>JUZ40 Invitation Websites</h3>
+            <p>Interactive invitations created for educational community meetings, with custom themes and clear event information.</p>
+            <ul class="pill-list" aria-label="JUZ40 technologies"><li>HTML</li><li>CSS</li><li>Google Meet</li></ul>
+            <details class="project-details" data-project-details>
+              <summary>Project details</summary>
+              <p>The invitations combine responsive landing pages, visual effects, animation, and meeting links for attendees.</p>
+            </details>
+          </div>
+        </article>
+        <article class="project-card" data-reveal>
+          <img class="project-art" src="images/project-4.svg" alt="Illustration of an architectural landmark against a mountain landscape in Kazakhstan" width="800" height="450" loading="lazy">
+          <div class="project-body">
+            <div class="project-meta"><p>Educational web development</p><span class="tag">Created</span></div>
+            <h3>Kazakhstan Historical Places</h3>
+            <p>An educational website about historical places and culturally significant sites across Kazakhstan.</p>
+            <ul class="pill-list" aria-label="Historical Places technologies"><li>HTML</li><li>CSS</li><li>Web audio</li></ul>
+            <details class="project-details" data-project-details>
+              <summary>Project details</summary>
+              <p>Visitors can explore multiple pages through interactive navigation, read historical context, view images, and use audio controls.</p>
+            </details>
+          </div>
+        </article>
+        <article class="project-card" data-reveal>
+          <img class="project-art" src="images/project-5.svg" alt="Illustration of stacked game servers with status lights" width="800" height="450" loading="lazy">
+          <div class="project-body">
+            <div class="project-meta"><p>Gaming infrastructure</p><span class="tag">Past exploration</span></div>
+            <h3>Aura-Host</h3>
+            <p>An earlier project exploring what a game-server hosting service would need to offer and maintain.</p>
+            <ul class="pill-list" aria-label="Aura-Host focus areas"><li>Game servers</li><li>Infrastructure</li><li>Hosting plans</li></ul>
+            <details class="project-details" data-project-details>
+              <summary>Project details</summary>
+              <p>I explored hosting plans, server infrastructure, and how to organize a community around the service.</p>
+            </details>
+          </div>
+        </article>
+        <article class="project-card" data-reveal>
+          <img class="project-art" src="images/project-6.svg" alt="Illustration of web page layout studies across desktop and mobile screens" width="800" height="450" loading="lazy">
+          <div class="project-body">
+            <div class="project-meta"><p>Frontend / UI design</p><span class="tag">Ongoing collection</span></div>
+            <h3>Creative Web Projects</h3>
+            <p>A collection of educational sites, personal landing pages, event pages, and experiments in HTML and CSS.</p>
+            <ul class="pill-list" aria-label="Creative web project technologies"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+            <details class="project-details" data-project-details>
+              <summary>Project details</summary>
+              <p>These smaller projects give me room to practice layout, responsive type, and interactions before applying them to larger ideas.</p>
+            </details>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" id="education" aria-labelledby="education-title">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">Education</p>
+        <h2 id="education-title">Learning for the long term.</h2>
+      </div>
+      <ol class="education-list">
+        <li data-reveal>
+          <!-- Time makes the calendar years machine-readable. -->
+          <time datetime="2026">2026</time>
+          <div>
+            <span class="tag tag-current">Current studies</span>
+            <h3>International Information Technology University</h3>
+            <p>Information Systems · Kazakhstan</p>
+          </div>
+        </li>
+        <li data-reveal>
+          <time datetime="2032">2032</time>
+          <div>
+            <span class="tag tag-future">Imagined development</span>
+            <h3>Software architecture and product strategy</h3>
+            <p>Study how to design maintainable systems and test whether a product solves the right problem.</p>
+          </div>
+        </li>
+        <li data-reveal>
+          <time datetime="2041">2041</time>
+          <div>
+            <span class="tag tag-future">Imagined development</span>
+            <h3>Leadership and mentoring</h3>
+            <p>Develop the skills to lead international teams and mentor new founders.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section shell" id="timeline" aria-labelledby="timeline-title">
+      <div class="section-head section-head-wide" data-reveal>
+        <div>
+          <p class="eyebrow">Career timeline</p>
+          <h2 id="timeline-title">From student to founder.</h2>
+        </div>
+        <p class="section-intro">My real journey begins at IITU. The milestones from 2030 onward describe the career I imagine for myself.</p>
+      </div>
+      <div class="table-frame" data-reveal>
+        <table>
+          <caption class="sr-only">Current and imagined career milestones</caption>
+          <thead>
+            <tr><th scope="col">When</th><th scope="col">Milestone</th><th scope="col">Journey</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row"><time datetime="2026">2026</time></th><td><strong>Information Systems student</strong><span>Studying at IITU and building independent web and software projects.</span></td><td><span class="tag tag-current">Real</span></td></tr>
+            <tr><th scope="row"><time datetime="2030">2030</time></th><td><strong>Aspiring IT role at JUZ40 Edu</strong><span>Work toward joining the IT department and contributing to educational technology.</span></td><td><span class="tag tag-future">Imagined</span></td></tr>
+            <tr><th scope="row"><time datetime="2035">2035</time></th><td><strong>Technology startup founder</strong><span>Start a team building tools for students and educators.</span></td><td><span class="tag tag-future">Imagined</span></td></tr>
+            <tr><th scope="row"><time datetime="2045">2045</time></th><td><strong>International technology leader</strong><span>Collaborate across countries on accessible educational products.</span></td><td><span class="tag tag-future">Imagined</span></td></tr>
+            <tr><th scope="row"><time datetime="2055">2055</time></th><td><strong>Mentor and technology investor</strong><span>Help founders test ideas and support promising teams in Kazakhstan.</span></td><td><span class="tag tag-future">Imagined</span></td></tr>
+            <tr><th scope="row">Age 60</th><td><strong>Retirement and professional legacy</strong><span>Step back from daily operations and continue to mentor young developers.</span></td><td><span class="tag tag-future">Imagined</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section shell" id="skills" aria-labelledby="skills-title">
+      <div class="section-head" data-reveal>
+        <h2 id="skills-title">Skills and tools.</h2>
+        <p class="section-intro">The tools I use in web projects and the areas I’m exploring through study and prototypes.</p>
+      </div>
+      <!-- The description list pairs each skill area with how it fits my work. -->
+      <dl class="skill-grid" data-reveal>
+        <div><dt>Frontend</dt><dd>HTML5, CSS3, and JavaScript for web projects. React and Next.js for application development practice.</dd></div>
+        <div><dt>Backend</dt><dd>Exploring Node.js, PostgreSQL, and API development.</dd></div>
+        <div><dt>Mobile</dt><dd>Learning mobile development with React Native and Expo.</dd></div>
+        <div><dt>Development tools</dt><dd>Git, GitHub, and VS Code. Exploring Docker and Xcode for additional workflows.</dd></div>
+        <div><dt>Product and design</dt><dd>UI/UX design, project planning, and product thinking.</dd></div>
+      </dl>
+    </section>
+
+    <section class="section shell" id="legacy" aria-labelledby="legacy-title">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">Achievements and future legacy</p>
+        <h2 id="legacy-title">What I hope to leave behind.</h2>
+      </div>
+      <div class="two-up">
+        <article class="panel journey-panel" data-reveal>
+          <span class="tag tag-current">Real journey</span>
+          <h3>Building a foundation</h3>
+          <ul class="check-list">
+            <li>Studying Information Systems at university</li>
+            <li>Building independent software and web projects</li>
+            <li>Learning web and mobile development</li>
+            <li>Exploring practical tools for students and communities</li>
+          </ul>
+        </article>
+        <article class="panel journey-panel future-panel" data-reveal>
+          <span class="tag tag-future">Future vision</span>
+          <h3>Giving back through technology</h3>
+          <ul class="check-list">
+            <li>Lead an international technology company</li>
+            <li>Build useful educational products</li>
+            <li>Support young developers and mentor startup founders</li>
+            <li>Contribute to Kazakhstan’s technology community</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" id="interests" aria-labelledby="interests-title">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">Interests and values</p>
+        <h2 id="interests-title">Curiosity beyond the code.</h2>
+      </div>
+      <div class="interest-grid">
+        <article class="panel float-story" data-reveal>
+          <img src="images/project-6.svg" width="800" height="450" loading="lazy" alt="Desktop and mobile interface sketches">
+          <h3>Making and sharing</h3>
+          <p>I enjoy technology, software development, and digital creativity. Entrepreneurship gives me a way to turn experiments into something others can use. Outside tech, I’m interested in DJing and music. Education and mentoring matter to me because I want others to have room to learn by building.</p>
+          <p class="float-note">A layout study from my Creative Web Projects collection.</p>
+        </article>
+        <!-- A blockquote and citation distinguish the portfolio motto from surrounding prose. -->
+        <figure class="panel quote-panel" data-reveal>
+          <blockquote><p>“Today’s ideas become tomorrow’s achievements.”</p></blockquote>
+          <figcaption><cite>Future Me at 60</cite> · Portfolio motto</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section shell contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-intro" data-reveal>
+        <p class="eyebrow">Contact</p>
+        <h2 id="contact-title">Let’s talk<br>about ideas.</h2>
+        <p class="section-intro">I’m interested in conversations about education, software, and early product ideas.</p>
+        <!-- Address contains contact information for the portfolio owner. -->
+        <address>Polat Yerdaulet<br>Information Systems student · IITU<br>Kazakhstan</address>
+      </div>
+      <form class="panel contact-form" id="contact-form" data-reveal aria-describedby="demo-notice">
+        <p id="demo-notice" class="demo-notice"><strong>Demo form.</strong> It checks entries locally and does not send a message.</p>
+        <div class="form-grid">
+          <div class="form-field">
+            <label for="full-name">Full name</label>
+            <input id="full-name" type="text" autocomplete="name" placeholder="Your name" required maxlength="100" aria-describedby="full-name-error">
+            <small class="field-error" id="full-name-error" hidden></small>
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input id="email" type="email" autocomplete="email" placeholder="you@example.com" required maxlength="254" aria-describedby="email-error">
+            <small class="field-error" id="email-error" hidden></small>
+          </div>
+          <div class="form-field form-wide">
+            <label for="subject">Subject</label>
+            <select id="subject" required aria-describedby="subject-error">
+              <option value="" selected disabled>Choose a subject</option>
+              <option value="project">Project collaboration</option>
+              <option value="education">Education and mentoring</option>
+              <option value="general">General inquiry</option>
+            </select>
+            <small class="field-error" id="subject-error" hidden></small>
+          </div>
+          <div class="form-field form-wide">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Tell me what you have in mind" maxlength="2000" required aria-describedby="message-error"></textarea>
+            <small class="field-error" id="message-error" hidden></small>
+          </div>
+          <fieldset class="form-field form-wide radio-field" aria-describedby="contact-method-error">
+            <legend>Preferred contact method</legend>
+            <label><input id="method-email" type="radio" name="contact-method" value="email" required aria-describedby="contact-method-error"> Email</label>
+            <label><input id="method-social" type="radio" name="contact-method" value="social" required aria-describedby="contact-method-error"> Social media</label>
+            <small class="field-error" id="contact-method-error" hidden></small>
+          </fieldset>
+          <div class="form-field form-wide agreement-field">
+            <label for="agreement"><input id="agreement" type="checkbox" required aria-describedby="agreement-error"> I understand this form is a local demo.</label>
+            <small class="field-error" id="agreement-error" hidden></small>
+          </div>
+        </div>
+        <button type="submit" class="button button-primary" data-demo-submit disabled>Validate message <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button>
+        <p id="form-status" role="status" aria-live="polite"></p>
+        <noscript><p class="field-error">JavaScript is needed to run the local demo validation.</p></noscript>
+      </form>
+    </section>
+
+  </main>
+
+  <hr class="footer-rule">
+  <footer class="site-footer shell">
+    <div class="footer-main">
+      <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">PE</span><span>Future Me <span class="brand-accent">at 60</span></span></a>
+      <nav aria-label="Footer navigation">
+        <a href="#education">Education</a>
+        <a href="#legacy">Legacy</a>
+        <a href="#interests">Interests</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#top" class="back-to-top">Back to top <span aria-hidden="true">↑</span></a>
+    </div>
+    <div class="footer-note"><small>&copy; 2026 Polat Yerdaulet</small><small>Information Systems · Kazakhstan</small></div>
+  </footer>
+</body>
+</html>
