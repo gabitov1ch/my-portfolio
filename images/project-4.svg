@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Illustrated mountains and Kazakh architectural heritage">
+  <defs>
+    <linearGradient id="bg" x2=".94" y2="1"><stop stop-color="#3b2930"/><stop offset="1" stop-color="#070d1b"/></linearGradient>
+    <linearGradient id="surface" x2=".1" y2="1"><stop stop-color="#212847"/><stop offset="1" stop-color="#11152b"/></linearGradient>
+    <linearGradient id="highlight" x2="1" y2="1"><stop stop-color="#f1bc6b" stop-opacity=".4"/><stop offset="1" stop-color="#f1bc6b" stop-opacity=".02"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#f1bc6b" stop-opacity=".24"/><stop offset="1" stop-color="#f1bc6b" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0v26" fill="none" stroke="#f1bc6b" stroke-opacity=".115"/></pattern>
+    <filter id="shadow" x="-.25" y="-.3" width="1.5" height="1.65"><feDropShadow dx="0" dy="12" stdDeviation="17" flood-color="#02030a" flood-opacity=".5"/></filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h800v450H0z"/>
+  <ellipse cx="510" cy="230" rx="400" ry="290" fill="url(#glow)"/>
+  <path fill="url(#grid)" d="M40 35h720v380H40z"/>
+  <path d="M40 60V35h25m670 0h25v25m0 330v25h-25m-670 0H40v-25" fill="none" stroke="#f1bc6b" stroke-opacity=".36"/>
+  
+    <defs>
+      <linearGradient id="sky" x2=".1" y2="1"><stop stop-color="#372e41"/><stop offset="1" stop-color="#946650"/></linearGradient>
+      <linearGradient id="land" x2="0" y2="1"><stop stop-color="#985f44"/><stop offset="1" stop-color="#331b26"/></linearGradient>
+      <linearGradient id="walls" x2="1" y2=".7"><stop stop-color="#e9aa69"/><stop offset="1" stop-color="#804838"/></linearGradient>
+      <clipPath id="art"><rect x="132" y="64" width="536" height="322" rx="15"/></clipPath>
+      <pattern id="decor" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M8 0l8 8-8 8-8-8z" fill="none" stroke="#ebbe81" stroke-width=".55" opacity=".67"/></pattern>
+    </defs>
+    <g clip-path="url(#art)" filter="url(#shadow)">
+      <rect x="132" y="64" width="536" height="322" fill="url(#sky)" />
+      <circle cx="513" cy="167" r="58" fill="#f1b67c"/>
+      <circle cx="513" cy="167" r="70" fill="none" stroke="#fac594" stroke-opacity=".43"/>
+      <path d="M132 262l114-112 66 61 47-84 77 85 55-20 44 51 86-47 47 47v143H132z" fill="#614657"/>
+      <path d="m209 187 37-37 29 26-21-7-10 9-6-9z M331 174l28-47 34 38-24-12-7 8-5-12z" fill="#d8a7a5" fill-opacity=".75"/>
+      <path d="M132 277l66-35 82 12 49-9 54 18 94-35 51 25 60-17 80 17v133H132z" fill="#81564b"/>
+      <path d="M132 312c80-30 172 7 256-9 116-24 182-18 280 1v82H132z" fill="url(#land)"/>
+      <path d="M132 341c77-26 142 3 236-2 62-3 122-31 195-32 42 0 72 6 105 20v59H132z" fill="#513139"/>
+      <path d="M139 367c79-22 172-5 256-14 101-11 174-54 263-9" fill="none" stroke="#dd9868" stroke-opacity=".45"/>
+      <path d="M359 332v-85h37v-22h75v88z" fill="#8a4c3b"/>
+      <path d="M395 228c2-21 16-36 38-43 21 7 36 22 38 43z" fill="#4b8790"/>
+      <path d="M425 189c2-9 5-13 8-19 3 6 6 10 8 19" fill="#e4ad80"/>
+      <path d="M401 226c4-18 14-29 32-41-13 16-14 27-15 41m20 0c1-14-1-25-5-41 11 14 17 28 18 41m10 0c-1-13-6-23-13-32" stroke="#a7c9b3" stroke-width="1.6" fill="none" opacity=".62"/>
+      <path d="M374 328v-96h90v96z" fill="url(#walls)" stroke="#cc9b6c" stroke-width="1"/>
+      <path d="M384 243h70v83h-70z" fill="url(#decor)" opacity=".87"/>
+      <path d="M400 328v-48q3-18 19-27 16 9 20 27v48z" fill="#6e3d31" stroke="#e3a568" stroke-width="2"/>
+      <path d="M405 328v-42q2-15 14-24 12 9 14 24v42z" fill="#352026"/>
+      <path d="M359 319h115m-117 8h119" fill="none" stroke="#ab7254" stroke-width="2"/>
+    </g>
+    <rect x="132" y="64" width="536" height="322" fill="none" rx="15" stroke="#be8765" stroke-opacity=".85"/>
+    <path d="M155 95V84h11m479 11V84h-11m11 267v13h-11m-479-13v13h11" fill="none" stroke="#ffd1a0" stroke-opacity=".62"/>
+    <text x="168" y="121" font-family="Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2" fill="#ffe1b8" >KAZAKHSTAN</text>
+  
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Indigo server infrastructure illustration">
+  <defs>
+    <linearGradient id="bg" x2=".94" y2="1"><stop stop-color="#1b2550"/><stop offset="1" stop-color="#070d1b"/></linearGradient>
+    <linearGradient id="surface" x2=".1" y2="1"><stop stop-color="#212847"/><stop offset="1" stop-color="#11152b"/></linearGradient>
+    <linearGradient id="highlight" x2="1" y2="1"><stop stop-color="#8f98ff" stop-opacity=".4"/><stop offset="1" stop-color="#8f98ff" stop-opacity=".02"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#8f98ff" stop-opacity=".24"/><stop offset="1" stop-color="#8f98ff" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0v26" fill="none" stroke="#8f98ff" stroke-opacity=".115"/></pattern>
+    <filter id="shadow" x="-.25" y="-.3" width="1.5" height="1.65"><feDropShadow dx="0" dy="12" stdDeviation="17" flood-color="#02030a" flood-opacity=".5"/></filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h800v450H0z"/>
+  <ellipse cx="510" cy="230" rx="400" ry="290" fill="url(#glow)"/>
+  <path fill="url(#grid)" d="M40 35h720v380H40z"/>
+  <path d="M40 60V35h25m670 0h25v25m0 330v25h-25m-670 0H40v-25" fill="none" stroke="#8f98ff" stroke-opacity=".36"/>
+  
+    <ellipse cx="396" cy="343" rx="224" ry="46" fill="#0a1026" opacity=".75"/>
+    <ellipse cx="396" cy="343" rx="197" ry="37" fill="none" stroke="#737ad1" stroke-dasharray="2 7" stroke-opacity=".72"/>
+    <path d="M131 288v-46l62-29h47m321 36h44l61-45v-30M351 138V93l53-29h75" fill="none" stroke="#707ac0" stroke-width="1.2" stroke-dasharray="4 6"/>
+    <circle cx="131" cy="290" r="4" fill="#a3adff" /><circle cx="666" cy="172" r="4" fill="#a3adff" /><circle cx="479" cy="64" r="4" fill="#a3adff" />
+    <g filter="url(#shadow)">
+      
+    <path d="M230 180l30-15h174l-4 15z" fill="#313a6c" stroke="#5162a0"/>
+    <rect x="230" y="180" width="200" height="35" fill="#171d3c" rx="6" stroke="#6575c4"/>
+    <rect x="242" y="191" width="88" height="4" fill="#344176" rx="2" />
+    <rect x="242" y="199" width="64" height="4" fill="#344176" rx="2" />
+    <circle cx="413" cy="197.5" r="3" fill="#a0aaff" />
+    <circle cx="400" cy="197.5" r="2" fill="#a0aaff" opacity=".48"/>
+  
+      
+    <path d="M230 224l30-15h174l-4 15z" fill="#313a6c" stroke="#5162a0"/>
+    <rect x="230" y="224" width="200" height="35" fill="#171d3c" rx="6" stroke="#6575c4"/>
+    <rect x="242" y="235" width="88" height="4" fill="#344176" rx="2" />
+    <rect x="242" y="243" width="64" height="4" fill="#344176" rx="2" />
+    <circle cx="413" cy="241.5" r="3" fill="#a0aaff" />
+    <circle cx="400" cy="241.5" r="2" fill="#a0aaff" opacity=".48"/>
+  
+      
+    <path d="M230 268l30-15h174l-4 15z" fill="#313a6c" stroke="#5162a0"/>
+    <rect x="230" y="268" width="200" height="35" fill="#171d3c" rx="6" stroke="#6575c4"/>
+    <rect x="242" y="279" width="88" height="4" fill="#344176" rx="2" />
+    <rect x="242" y="287" width="64" height="4" fill="#344176" rx="2" />
+    <circle cx="413" cy="285.5" r="3" fill="#54dab9" />
+    <circle cx="400" cy="285.5" r="2" fill="#54dab9" opacity=".48"/>
+  
+      
+    <path d="M352 125l30-15h195l-4 15z" fill="#313a6c" stroke="#5162a0"/>
+    <rect x="352" y="125" width="221" height="35" fill="#171d3c" rx="6" stroke="#6575c4"/>
+    <rect x="364" y="136" width="97.24" height="4" fill="#344176" rx="2" />
+    <rect x="364" y="144" width="70.72" height="4" fill="#344176" rx="2" />
+    <circle cx="556" cy="142.5" r="3" fill="#a0aaff" />
+    <circle cx="543" cy="142.5" r="2" fill="#a0aaff" opacity=".48"/>
+  
+      
+    <path d="M352 169l30-15h195l-4 15z" fill="#313a6c" stroke="#5162a0"/>
+    <rect x="352" y="169" width="221" height="35" fill="#171d3c" rx="6" stroke="#6575c4"/>
+    <rect x="364" y="180" width="97.24" height="4" fill="#344176" rx="2" />
+    <rect x="364" y="188" width="70.72" height="4" fill="#344176" rx="2" />
+    <circle cx="556" cy="186.5" r="3" fill="#a0aaff" />
+    <circle cx="543" cy="186.5" r="2" fill="#a0aaff" opacity=".48"/>
+  
+      
+    <path d="M352 213l30-15h195l-4 15z" fill="#313a6c" stroke="#5162a0"/>
+    <rect x="352" y="213" width="221" height="35" fill="#171d3c" rx="6" stroke="#6575c4"/>
+    <rect x="364" y="224" width="97.24" height="4" fill="#344176" rx="2" />
+    <rect x="364" y="232" width="70.72" height="4" fill="#344176" rx="2" />
+    <circle cx="556" cy="230.5" r="3" fill="#54dab9" />
+    <circle cx="543" cy="230.5" r="2" fill="#54dab9" opacity=".48"/>
+  
+      
+    <path d="M352 257l30-15h195l-4 15z" fill="#313a6c" stroke="#5162a0"/>
+    <rect x="352" y="257" width="221" height="35" fill="#171d3c" rx="6" stroke="#6575c4"/>
+    <rect x="364" y="268" width="97.24" height="4" fill="#344176" rx="2" />
+    <rect x="364" y="276" width="70.72" height="4" fill="#344176" rx="2" />
+    <circle cx="556" cy="274.5" r="3" fill="#54dab9" />
+    <circle cx="543" cy="274.5" r="2" fill="#54dab9" opacity=".48"/>
+  
+    </g>
+    <g filter="url(#shadow)">
+      <rect x="518" y="293" width="174" height="59" fill="#22284d" rx="9" stroke="#7d8ce0"/>
+      <circle cx="540" cy="322" r="7.5" fill="none" stroke="#6ff1c5" stroke-opacity=".7"/><circle cx="540" cy="322" r="3" fill="#6ff1c5" />
+      <text x="556" y="326" font-family="Arial, sans-serif" font-size="8" font-weight="700" letter-spacing="1.2" fill="#cfdaff" >INFRASTRUCTURE</text>
+    </g>
+  
+</svg>
